@@ -1,0 +1,200 @@
+ 
+*{
+    margin: 0; padding: 0;
+}
+
+.hr{
+    border: 2px solid gray;
+    /* box-shadow: 10px 10px 10px gray; */
+}
+
+.anchorlink{
+    text-decoration: none;
+    color: black;
+}
+
+.anchorlink:hover{
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+ 
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+/* navbar styling */
+.logo{
+    float: left;
+    display: flex;
+    margin-top: 1%;
+    letter-spacing: 5px;
+    /* font-size: 30px; */
+    font-family: 'Alkalami', serif;
+}
+
+h1{
+    display: block;
+    margin: auto;
+margin-left: 5%;
+}
+
+/* mensection styling */
+.mensection{
+width: 95%;
+height: 800px;
+/* border: 2px solid black; */
+display: inline-block;
+margin-left: 3%;
+}
+
+/* filter styling */
+.filter{
+    width:20%;
+    height: 600px;
+    float: left;
+    line-height: 2.5;
+}
+
+.price{
+    display: block;
+    margin-left: 5%;
+}
+
+/* caption styling */
+.caption{
+    width: 75%;
+    float: right;
+}
+
+.captionspan{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.spancontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 5px;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+.captioncontent{
+    letter-spacing: 1px;
+    display: block;
+    margin: auto;
+    width: 90%;
+    top: 20px;
+}
+
+/* gridcontainer styling */
+.gridcontainer{
+    width: 75%;
+    height: 800px;
+    margin-top: 14%;
+    margin-left: 25%;
+}
+
+.grid{
+    height: 500px;
+    width: 30%;
+    /* border: 2px solid burlywood; */
+    margin-left: 2%;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.gridimage{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.gridimage img{
+    height: 100%;width: 100%;
+}
+.gridimagedetail{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid orange; */
+}
+
+.gridspan{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.gridcontent{
+    display: block;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+/* footer styling */
+.footer{
+    text-align: center;
+    margin-top: 10%;
+    /* background-color: antiquewhite; */
+}
+
+.footerheading{
+    margin-top: 4%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footersubheading{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footericon{
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+
+
+/* dark-light mode styling */
+#toggle-icon{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    color: white;
+    top: 38%;
+    right: 24%;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#toggle-icon:before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: white;
+    top: -5%;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.4s;
+    
+}
+
+
+.light{
+    background-color: #fff;color: #000;
+}
+
+body.night{
+    background-color: #000; color:#fff;
+}

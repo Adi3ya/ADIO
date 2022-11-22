@@ -1,0 +1,257 @@
+ 
+*{
+    margin: 0; padding: 0;
+}
+
+.hr{
+    border: 4px solid black;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+li{
+    list-style-type: none;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.mode{
+    color: white;
+    width: 40%;
+    height: 100%;
+    margin-top: 3%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* coupon code styling */
+.close{
+    float: right;
+    margin-top: 2%;
+    font-size: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 15%;
+    padding: 2px;
+    cursor: pointer;
+    z-index: 100;
+    color: red;
+}
+#coupon-code{
+    height: 400px;
+    width:40%;
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 30%;
+    z-index: 100;
+}
+
+.coupon-image>img{
+    width: 100%;
+    height: 100%;
+}
+
+.coupon-content{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -10%;
+    font-weight: inherit;
+    font-style: italic;
+    z-index: 5;
+}
+
+.off{
+    position: absolute;
+    margin-top: -70%;
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 5;
+}
+.coupon-content>h3{
+    margin-top: -30%;
+    text-align: center;
+    margin-left: 25%;
+}
+span{
+    font-weight: bold;
+    color: #dd2a23;;
+}
+
+.span-class{
+    margin-left: 45%;
+    margin-top: -50%;
+}
+
+/* navbar styling */
+.logo{
+    float: left;
+    display: flex;
+    margin-top: 1%;
+    letter-spacing: 5px;
+    /* font-size: 30px; */
+    font-family: 'Alkalami', serif;
+}
+
+h1{
+    display: block;
+    margin: auto;
+margin-left: 5%;
+}
+
+
+/* carousel styling */
+.carouselcontainer{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.carouselheading{
+    /* position: relative; */
+    text-align: center;
+}
+.carouselheading2{
+    text-align: center;
+    margin-top: 15%;
+}
+
+/* offer container styling */
+.offerscontainer{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.images{
+    background-image: url(/logo.jpg);
+    height: 235px; width: 295px;
+    border-radius: 30%;
+}
+
+.images:hover{
+    cursor: pointer;
+   box-shadow: 5px 5px 5px 5px gray;
+    /* height: 160px; */
+}
+
+.offers{
+    /* display: block;
+    margin: auto;
+    width: 30%;
+    margin-top:3%; */
+    display: inline-block;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 2%;
+    
+}
+
+.rowcontent{
+    position: relative;
+    top:50px;  
+}
+
+
+/* footer styling */
+.footer{
+    text-align: center;
+    margin-top: 10%;
+    /* background-color: antiquewhite; */
+}
+
+.footerheading{
+    margin-top: 4%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footersubheading{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footericon{
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+
+
+/* zooming effect in carousel */
+@keyframes zoom{
+    from{
+        transform: scale(1,1);
+    }
+
+    to{
+        transform: scale(1.3,1.3);
+    }
+}
+@keyframes zoom1{
+    from { transform : scale(1,1);}
+    to { transform: scale(1.1,1.1);}
+}
+
+.carousel-inner .carousel-item > img{
+    animation: zoom 15s infinite;
+} 
+
+.offerscontainer:hover{
+    animation: zoom1 2s infinite;
+}
+
+
+/* dark-light mode styling */
+#toggle-icon{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    color: white;
+    top: 38%;
+    right: 24%;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#toggle-icon:before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: white;
+    top: -5%;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.4s;
+    
+}
+
+
+.light{
+    background-color: #fff;color: #000;
+}
+
+body.night{
+    background-color: #000; color:#fff;
+}
+
+/* geo location icon styling */
+.geo{
+    position: relative;
+    margin-right: 2%;
+    margin-left: 2%;
+    color: gold;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 3px;
+}
