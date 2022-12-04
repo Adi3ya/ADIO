@@ -1,0 +1,69 @@
+
+[
+		{
+			"id" : 1,
+			"product" : "Men'sWear",
+			"category" : "MenFeaturedBrands",
+			"category_id" : 1,
+			"price" : 1200,
+			"BrandName" : "THE BEAR HOUSE",
+			"product_type" : "casual_wear",
+			"Image" : "https://images.pexels.com/photos/1964970/pexels-photo-1964970.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"Color" : "Gray"
+	},
+		{
+			"id" : 2,
+			"product" : "Men'sWear",
+			"category" : "MenFeaturedBrands",
+			"category_id" : 1,
+			"price" : 2000,
+			"BrandName" : "GESPO",
+			"product_type" : "hoodie-sweat-shirt",
+			"Image" : "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"Color" : "Yellow"
+	},
+		{
+			"id" : 3,
+			"product" : "Men'sWear",
+			"category" : "MenFeaturedBrands",
+			"category_id" : 1,
+			"price" : 2300,
+			"BrandName" : "CAMPUS SUTRA",
+			"product_type" : "suit",
+			"Image" : "https://images.pexels.com/photos/1661416/pexels-photo-1661416.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"Color" : "Gray"
+	},
+		{
+			"id" : 4,
+			"product" : "Men'sWear",
+			"category" : "MenFeaturedBrands",
+			"category_id" : 1,
+			"price" : 900,
+			"BrandName" : "BRITISH CLUB",
+			"product_type" : "jeans-suit",
+			"Image" : "https://images.pexels.com/photos/1205033/pexels-photo-1205033.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"Color" : "Sky-blue"
+	},
+		{
+			"id" : 5,
+			"product" : "Men'sWear",
+			"category" : "MenFeaturedBrands",
+			"category_id" : 1,
+			"price" : 700,
+			"BrandName" : "NETPLAY",
+			"product_type" : "jacket",
+			"Image" : "https://images.pexels.com/photos/3724358/pexels-photo-3724358.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"Color" : "Red"
+	},
+		{
+			"id" : 6,
+			"product" : "Men'sWear",
+			"category" : "MenFeaturedBrands",
+			"category_id" : 1,
+			"price" : 2200,
+			"BrandName" : "iVOC",
+			"product_type" : "full-sleeve-t-shirt",
+			"Image" : "https://images.pexels.com/photos/878358/pexels-photo-878358.jpeg?auto=compress&cs=tinysrgb&w=600",
+			"Color" : "White"
+	}
+]

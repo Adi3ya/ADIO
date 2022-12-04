@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "category" : "MenFeaturedBrands"
+},
+    {
+        "id" : 2,
+        "category" : "WomenFeaturedBrands"
+},
+    {
+        "id" : 3,
+        "category" : "KidsFeaturedBrands"
+},
+    {
+        "id" : 4,
+        "category" : "Watches"
+},
+    {
+        "id" : 5,
+        "category" : "Footwear"
+}
+]

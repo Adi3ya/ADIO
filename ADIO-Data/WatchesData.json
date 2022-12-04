@@ -1,0 +1,69 @@
+
+[
+    {
+        "id" : 1,
+        "product" : "Adult'sWatch",
+        "category" : "Watches",
+        "category_id" : 4,
+        "price" : 20000,
+        "BrandName" : "ZEPPELIN",
+        "product_type" : "wristwatch",
+        "Image" : "https://images.pexels.com/photos/1697218/pexels-photo-1697218.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "Color" : "black"
+},
+    {
+        "id" : 2,
+        "product" : "Adult'sWatch",
+        "category" : "Watches",
+        "category_id" : 4,
+        "price" : 6700,
+        "BrandName" : "GUESS",
+        "product_type" : "wristwatch",
+        "Image" : "https://images.pexels.com/photos/1162519/pexels-photo-1162519.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "Color" : "pink"
+},
+    {
+        "id" : 3,
+        "product" : "Adult'sWatch",
+        "category" : "Watches",
+        "category_id" : 4,
+        "price" : 12000,
+        "BrandName" : "FOSSIL",
+        "product_type" : "wristwatch",
+        "Image" : "https://images.pexels.com/photos/1374128/pexels-photo-1374128.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "Color" : "silver"
+},
+    {
+        "id" : 4,
+        "product" : "Adult'sWatch",
+        "category" : "Watches",
+        "category_id" : 4,
+        "price" : 1500,
+        "BrandName" : "SONATA",
+        "product_type" : "wristwatch",
+        "Image" : "https://images.pexels.com/photos/2155319/pexels-photo-2155319.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "Color" : "Gray"
+},
+    {
+        "id" : 5,
+        "product" : "Adult'sWatch",
+        "category" : "Watches",
+        "category_id" : 4,
+        "price" : 2800,
+        "BrandName" : "FASTRACK",
+        "product_type" : "wristwatch",
+        "Image" : "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "Color" : "Metal"
+},
+    {
+        "id" : 6,
+        "product" : "Adult'sWatch",
+        "category" : "Watches",
+        "category_id" : 4,
+        "price" : 3000,
+        "BrandName" : "TITAN",
+        "product_type" : "wristwatch",
+        "Image" : "https://images.pexels.com/photos/2799535/pexels-photo-2799535.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "Color" : "WhiteMetal"
+}
+]
